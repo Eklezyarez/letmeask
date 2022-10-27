@@ -7,7 +7,6 @@ export const TestContext = createContext('')
 
 function App() {
   return (
-    
       <BrowserRouter>
       <TestContext.Provider value={'Teste'}>
           <Routes>
