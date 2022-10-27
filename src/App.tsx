@@ -14,8 +14,7 @@ function App() {
             <Route path="/rooms/new" element={<NewRoom/>} />
           </Routes>
         </TestContext.Provider>
-      </BrowserRouter>
-    
+      </BrowserRouter>   
   );
 }
 
